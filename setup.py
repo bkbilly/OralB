@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='oralb',
-    version='0.1',
+    version='0.1.2',
     author="bkbilly",
     author_email="bkbilly@hotmail.com",
     description="Connect to an OralB toothbrush via Bluetooth",
@@ -18,7 +18,7 @@ setuptools.setup(
         'bleak-retry-connector>=2.1.3',
     ],
     classifiers=[
-        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.9",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
