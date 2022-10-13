@@ -1,4 +1,4 @@
-# OralB
+# OralB Toothbrush
 [![PyPI Version](https://img.shields.io/pypi/v/OralB?label=PyPI&logo=pypi)](https://pypi.org/project/OralB/)
 
 
