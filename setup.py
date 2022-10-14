@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='oralb',
-    version='0.1.2',
+    version='0.1.3',
     author="bkbilly",
     author_email="bkbilly@hotmail.com",
     description="Connect to an OralB toothbrush via Bluetooth",

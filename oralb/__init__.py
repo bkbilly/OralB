@@ -113,7 +113,6 @@ class OralB:
             self.result["sector"] = sectors.get(res_dict["sector"][0], "UNKNOWN")
             self.result["sector_time"] = res_dict["sector"][1]
         except Exception:
-            time.sleep(3)
             _LOGGER.debug(f"{self.name}: Not connected to device")
 
         return self.result
