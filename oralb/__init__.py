@@ -30,6 +30,13 @@ class OralB:
             "sector_time": None,
         }
 
+    def set_ble_device(self, ble_device) -> None:
+        self.ble_device = ble_device
+
+    def disconnect(self) -> None:
+        self.client = None
+        self.ble_device = None
+
     async def connect(self) -> None:
         """Ensure connection to device is established."""
         if self.client and self.client.is_connected:
